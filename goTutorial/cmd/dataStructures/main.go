@@ -1,7 +1,7 @@
 package main
 
 import (
-	structStructure "go_tutorials/cmd/structures/struct"
+	structStructure "go_tutorials/cmd/dataStructures/structures/struct"
 )
 
 func main() {
