@@ -6,3 +6,6 @@ startLesson2:
 
 startLesson3:
 	cd cmd/functions/cmd && go run main.go
+
+startLesson4:
+	cd cmd/concurrency/cmd && go run main.go
