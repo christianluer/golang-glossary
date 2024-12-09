@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	waitgroup "go_tutorials/cmd/concurrency/waitGroup"
+)
 
 func main() {
 	fmt.Println("hello")
+	waitgroup.ApplyWaitGroup()
 }
