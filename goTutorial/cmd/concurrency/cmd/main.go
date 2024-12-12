@@ -6,5 +6,6 @@ import (
 
 func main() {
 	// racecondition.Execute()
-	racecondition.ExecuteSolucion()
+	// racecondition.ExecuteSolucion()
+	racecondition.ExecuteSolucion2()
 }
