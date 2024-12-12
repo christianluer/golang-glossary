@@ -1,11 +1,10 @@
 package main
 
 import (
-	"fmt"
-	waitgroup "go_tutorials/cmd/concurrency/waitGroup"
+	racecondition "go_tutorials/cmd/concurrency/raceCondition"
 )
 
 func main() {
-	fmt.Println("hello")
-	waitgroup.ApplyWaitGroup()
+	// racecondition.Execute()
+	racecondition.ExecuteSolucion()
 }
