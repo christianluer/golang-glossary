@@ -6,6 +6,8 @@ import (
 	"sync"
 )
 
+// MUTEX: Mutual Exclution
+
 func ExecuteSolucion() {
 	fmt.Println("CPUs:", runtime.NumCPU())
 	fmt.Println("GoRoutines:", runtime.NumGoroutine())
