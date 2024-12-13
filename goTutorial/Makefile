@@ -9,3 +9,6 @@ startLesson3:
 
 startLesson4:
 	cd cmd/concurrency/cmd && go run main.go
+
+startLesson5:
+	cd cmd/channels/cmd && go run main.go
