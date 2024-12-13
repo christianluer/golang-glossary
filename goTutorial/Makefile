@@ -12,3 +12,7 @@ startLesson4:
 
 startLesson5:
 	cd cmd/channels/cmd && go run main.go
+
+startLesson6:
+	cd cmd/testing/cmd && go run main.go
+	cd cmd/testing/basics && go test
